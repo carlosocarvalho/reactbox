@@ -5,17 +5,13 @@ import { Container } from "styled-container-component";
 import { theme as themeBootstrap } from "styled-config";
 
 import { Layout as SLayout } from "./LayoutComponent";
+import theme from '@coc/styles/theme'
 
-const themeDefault = {
-  colors: {
-    primary: "#36BA9B"
-  }
-};
 function Layout({ children, fluid, theme }) {
   return (
     <ThemeProvider theme={theme}>
-      <SLayout>
-        <Container>{children}</Container>
+      <SLayout className="wrapper">
+        <Container fluid>{children}</Container>
       </SLayout>
     </ThemeProvider>
   );
@@ -29,7 +25,7 @@ Layout.propTypes = {
 };
 
 Layout.defaultProps = {
-  theme: themeBootstrap,
+  theme: {...themeBootstrap, ...theme},
   fluid: true
 };
 
