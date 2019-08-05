@@ -1,5 +1,5 @@
 export const fonts = {
-    name: '',
+    defaultFamily: 'Nunito, sans-serif',
     sizeSmall: '',
     sizeMedium: '',
     sizeNormal: ''

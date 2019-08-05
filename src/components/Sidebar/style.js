@@ -1,7 +1,8 @@
 import styled from "styled-components";
-
+import {fonts}  from '@coc/styles/theme/global'
 export const SidebarContainer = styled.nav`
-  font-family: "Montserrat", sans-serif !important;
+  font-family: ${fonts.defaultFamily} !important;
+  
   background: #fff;
   a[data-toggle="collapse"] {
     position: relative;
@@ -25,15 +26,15 @@ export const SidebarContainer = styled.nav`
   padding-bottom: 100px;
 
   ul > li > a {
-    margin: 15px 10px 0;
+    margin: 10px 10px 0;
     color: #66615b;
     display: block;
-    font-weight: 400;
+    font-weight: 600 !important;
     text-decoration: none;
     position: relative;
-    text-transform: uppercase;
+    
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     padding: 5px 8px;
     line-height: 25px;
   }
@@ -42,6 +43,11 @@ export const SidebarContainer = styled.nav`
     color: #66615b;
     opacity: 0.7;
     margin-right: 10px;
+  }
+
+  li > .active,
+  li > .active i{
+     color: #09AB7C;
   }
 `;
 

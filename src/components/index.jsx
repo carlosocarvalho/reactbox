@@ -3,6 +3,7 @@ import {Button} from  './Button'
 import Sidebar from './Sidebar'
 import Table from './Table'
 import Navbar from './Navbar'
+import Card from './Card'
 /**
  * Components
  */
@@ -11,5 +12,6 @@ export default {
   Button,
   Sidebar,
   Table,
-  Navbar
+  Navbar,
+  Card
 }
