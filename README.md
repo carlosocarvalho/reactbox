@@ -5,7 +5,7 @@ This is simple panel control components for **reactjs**
 [![CodeFactor](https://www.codefactor.io/repository/github/carlosocarvalho/react-dashboard-component/badge)](https://www.codefactor.io/repository/github/carlosocarvalho/react-dashboard-component)
 
 
-### User this project with base 
+### Use this project with base 
 
 ```bash
 > git clone this_project
