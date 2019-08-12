@@ -1,6 +1,6 @@
 ## ReactBox Panel components
 
-This is simple panel control components for **reactjs**
+This is simple for **reactjs**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/carlosocarvalho/react-dashboard-component/badge)](https://www.codefactor.io/repository/github/carlosocarvalho/react-dashboard-component)
 
