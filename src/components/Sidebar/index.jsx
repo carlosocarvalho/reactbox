@@ -10,7 +10,7 @@ function Sidebar({routers, ...props}) {
        <SidebarWrapper>
         <SidebarHeader>
             <img  className="logo" src="/img/logo.png" />
-            <NavLink to="/" class="sidebar-header-title">ReactBox</NavLink>
+            <NavLink to="/" className="sidebar-header-title">ReactBox</NavLink>
         </SidebarHeader>
          <SidebarContainer>
          <ul className="list-unstyled components">

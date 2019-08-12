@@ -4,6 +4,7 @@ import Sidebar from './Sidebar'
 import Table from './Table'
 import Navbar from './Navbar'
 import Card from './Card'
+import {Form, FormControl} from './Form'
 /**
  * Components
  */
@@ -13,5 +14,7 @@ export default {
   Sidebar,
   Table,
   Navbar,
-  Card
+  Card,
+  Form,
+  FormControl
 }
