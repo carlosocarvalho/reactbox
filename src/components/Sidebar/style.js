@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import {fonts}  from '@coc/styles/theme/global'
+import {fonts}  from '@coc/assets/styles/theme/global'
+import colors  from '@coc/assets/styles/theme/colors'
+
 export const SidebarContainer = styled.nav`
   font-family: ${fonts.defaultFamily} !important;
   
@@ -60,4 +62,25 @@ export const SidebarWrapper = styled.div`
   left: 0;
   z-index: 1030;
   border-right: 1px solid #dce8e6;
+`;
+
+
+export const SidebarHeader = styled.div`
+padding: 20px 15px;
+background: #fff;
+
+.logo{
+  height:30px;
+}
+
+.sidebar-header-title {
+  font-weight: 800;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  color: ${colors.primary};
+  &:hover{
+    text-decoration: none;
+    opacity:.9;
+  }
+}
 `;

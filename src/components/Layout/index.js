@@ -3,9 +3,8 @@ import PropTypes from "prop-types";
 import { ThemeProvider } from "styled-components";
 import { Container } from "styled-container-component";
 import { theme as themeBootstrap } from "styled-config";
-
 import { Layout as SLayout } from "./LayoutComponent";
-import theme from '@coc/styles/theme'
+import theme from '@coc/assets/styles/theme'
 
 function Layout({ children, fluid, theme }) {
   return (

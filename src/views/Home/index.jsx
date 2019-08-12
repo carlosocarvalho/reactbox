@@ -1,6 +1,8 @@
 import React from "react";
-import Components from "@coc/components";
 import { Container, Row, Col } from "react-bootstrap";
+import User from "./Charts/Users";
+import Months from "./Charts/Months";
+
 
 export default function Dashboard() {
   return (
@@ -9,9 +11,11 @@ export default function Dashboard() {
         <Container>
           <Row>
             <Col xs md={4}>
-              <Components.Card>
-                <Components.Card.Body>Oid</Components.Card.Body>
-              </Components.Card>
+               <Months/>
+            </Col>
+
+            <Col xs md={4}>
+              <User />
             </Col>
           </Row>
         </Container>
