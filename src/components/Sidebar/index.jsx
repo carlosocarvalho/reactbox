@@ -9,7 +9,7 @@ function Sidebar({routers, ...props}) {
     return (
        <SidebarWrapper>
         <SidebarHeader>
-            <img  className="logo" src="/img/logo.png" />
+            <img  alt="logo" className="logo" src="/img/logo.png" />
             <NavLink to="/" className="sidebar-header-title">ReactBox</NavLink>
         </SidebarHeader>
          <SidebarContainer>
