@@ -17,7 +17,7 @@
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "styled-bootstrap-components": "^4.0.0-alpha.0",
     "styled-button-component": "^3.0.1",
     "styled-components": "^4.3.2",
